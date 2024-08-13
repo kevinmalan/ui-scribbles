@@ -1,0 +1,35 @@
+body {
+    background-color: #f5f5dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+}
+
+#wordsCount {
+    color: #3a5f0b;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#words {
+    width: 60%;
+    height: 200px;
+    padding: 15px;
+    border: 2px solid #3a5f0b;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    resize: none;
+    background-color: #fff;
+    color: #333;
+}
+
+#words:focus {
+    outline: none;
+    border-color: #4a7725;
+    box-shadow: 0px 0px 12px rgba(58, 95, 11, 0.5);
+}
