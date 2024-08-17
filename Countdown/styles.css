@@ -48,7 +48,6 @@ body {
 @media (max-width: 600px) {
     #mainHeader {
         font-size: 28px;
-        padding: 20pt;
     }
 
     .time {
