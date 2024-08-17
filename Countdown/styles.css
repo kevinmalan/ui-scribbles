@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#mainHeader {
+    color: #00ccff;
+    margin-bottom: 30px;
+    font-size: 36px;
+    text-align: center;
+}
+
+#countdown {
+    display: flex;
+    gap: 30px;
+}
+
+.time-box {
+    text-align: center;
+}
+
+.time {
+    display: block;
+    font-size: 72px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 24px;
+    color: white;
+}
+
+#seeYouSoon {
+    color: pink;
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    #mainHeader {
+        font-size: 28px;
+    }
+
+    .time {
+        font-size: 48px;
+    }
+
+    .label {
+        font-size: 18px;
+    }
+
+    #countdown {
+        gap: 20px;
+    }
+
+    #seeYouSoon {
+        font-size: 20px;
+    }
+}
